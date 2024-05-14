@@ -15,35 +15,12 @@ namespace Sistest
             Console.WriteLine(ex1.Solution(670));
             Console.WriteLine(ex1.Solution(0));
             Console.WriteLine(ex1.Solution(-999));
-            Console.WriteLine(ex1.Solution(-999));  // Replace with expected output
-            Console.WriteLine(ex1.Solution(-500));  // Replace with expected output
-            Console.WriteLine(ex1.Solution(-1));    // Replace with expected output
-            Console.WriteLine(ex1.Solution(0));     // Replace with expected output
-            Console.WriteLine(ex1.Solution(1));     // Replace with expected output
-            Console.WriteLine(ex1.Solution(500));   // Replace with expected output
-            Console.WriteLine(ex1.Solution(999));   // Replace with expected output
-            Console.WriteLine(ex1.Solution(-1000)); // Replace with expected output
-            Console.WriteLine(ex1.Solution(1000));  // Replace with expected output
-            Console.WriteLine(ex1.Solution(123));   // Replace with expected output
-            Console.WriteLine(ex1.Solution(-123));  // Replace with expected output
-            Console.WriteLine(ex1.Solution(456));   // Replace with expected output
-            Console.WriteLine(ex1.Solution(-456));  // Replace with expected output
-            Console.WriteLine(ex1.Solution(789));   // Replace with expected output
-            Console.WriteLine(ex1.Solution(-789));  // Replace with expected output
 
-            Console.WriteLine(ex1.Solution(42));    // Replace with expected output
-            Console.WriteLine(ex1.Solution(-42));   // Replace with expected output
-            Console.WriteLine(ex1.Solution(17));    // Replace with expected output
-            Console.WriteLine(ex1.Solution(-17));   // Replace with expected output
-            Console.WriteLine(ex1.Solution(0));     // Replace with expected output
-            Console.WriteLine(ex1.Solution(99999)); // Replace with expected output
-            Console.WriteLine(ex1.Solution(-99999));// Replace with expected output
-            Console.WriteLine(ex1.Solution(100000));// Replace with expected output
-            Console.WriteLine(ex1.Solution(-100000));// Replace with expected output
-            Console.WriteLine(ex1.Solution(11111)); // Replace with expected output
-            Console.WriteLine(ex1.Solution(-11111));// Replace with expected output
-            Console.WriteLine(ex1.Solution(22222)); // Replace with expected output
-            Console.WriteLine(ex1.Solution(-22222));// Replace with expected output
+            Console.WriteLine(ex1.Solution(-100000));
+            Console.WriteLine(ex1.Solution(11111)); 
+            Console.WriteLine(ex1.Solution(-11111));
+            Console.WriteLine(ex1.Solution(22222)); 
+            Console.WriteLine(ex1.Solution(-22222));
 
 
             //Ejercicio 2
