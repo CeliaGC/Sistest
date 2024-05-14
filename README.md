@@ -1,6 +1,6 @@
 # Sistest
 
-This repository contains the solution to solve 3 exercises in the context of a technical test for Sisteplant. In the PDF
+This repository contains consisting in a console application ready to be build and check the results for 3 exercises in the context of a technical test. In the PDF
 there can be found the exercises statements.
 
 ## Setup Instructions
@@ -27,7 +27,7 @@ string connectionString = "Server=your_server;Database=your_database_name;User=y
 ### Step 3: Run the project
 
 1. Build and run the project from your IDE.
-2. The output should display the results of exercises. Try to give different inputs by modifying the arguments given 
+2. The output should display the results of exercises in your console window. Try to give different inputs by modifying the arguments given 
 to each function in Program.cs
 3. Have fun!
 
