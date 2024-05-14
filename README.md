@@ -1,7 +1,6 @@
 # Sistest
 
-This repository contains consisting in a console application ready to be build and check the results for 3 exercises in the context of a technical test. In the PDF
-there can be found the exercises statements.
+This repository contains a solution consisting in a .NET console application with C# version 12.0, ready to be build and check the results for 3 exercises in the context of a technical test. In the PDF file there can be found the exercises statements.
 
 ## Setup Instructions
 
