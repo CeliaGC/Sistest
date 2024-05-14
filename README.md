@@ -11,8 +11,9 @@ there can be found the exercises statements.
 
 ### Step 1: Set Up the Database
 
-1. Open your MariaDB or MySQL client (e.g., phpMyAdmin, MySQL Workbench, command line).
-2. Run the `setup.sql` script provided in the repository to create the necessary tables and insert sample data.
+1. Clone this repository
+2. Open your MariaDB or MySQL client (e.g., phpMyAdmin, MySQL Workbench, command line).
+3. Run the `setup.sql` script provided in the repository to create the necessary tables and insert sample data.
 
 mysql -u root -p < setup.sql
 
