@@ -8,29 +8,37 @@ namespace Sistest
     {
         static void Main(string[] args)
         {
-            // Ejercicio 1
+            // Exercise 1
             Exercise1 ex1 = new Exercise1();
             Console.WriteLine("Exercise 1:");
-            Console.WriteLine(ex1.Solution(268));
-            Console.WriteLine(ex1.Solution(670));
-            Console.WriteLine(ex1.Solution(0));
-            Console.WriteLine(ex1.Solution(-999));
-
-            Console.WriteLine(ex1.Solution(-100000));
-            Console.WriteLine(ex1.Solution(11111)); 
-            Console.WriteLine(ex1.Solution(-11111));
-            Console.WriteLine(ex1.Solution(22222)); 
-            Console.WriteLine(ex1.Solution(-22222));
+            Console.WriteLine(ex1.Solution(268)); //must return 5268
+            
 
 
-            //Ejercicio 2
+
+
+
+
+
+            Console.WriteLine(ex1.Solution(670));  // Must return 6750
+            Console.WriteLine(ex1.Solution(0));  // Must return 50
+            Console.WriteLine(ex1.Solution(-999));  // Must return - 5999
+
+            Console.WriteLine(ex1.Solution(-100000));  // Must return - 1000005
+            Console.WriteLine(ex1.Solution(11111));  // Must return 511111
+            Console.WriteLine(ex1.Solution(-11111));  // Must return - 111115
+            Console.WriteLine(ex1.Solution(22222));  // Must return 522222
+            Console.WriteLine(ex1.Solution(-22222));  // Must return - 222225
+
+
+            //Exercise 2
             Exercise2 ex2 = new Exercise2();
             Console.WriteLine("Exercise 2:");
             int[] arrayExample = { 0, 1, 1, 1, 0, 1, 1, 1, 0, 1 };
             int[] arrayExample1 = { 0, 0 };
 
-            Console.WriteLine(ex2.Solution(arrayExample));
-            Console.WriteLine(ex2.Solution(arrayExample1));
+            Console.WriteLine(ex2.Solution(arrayExample));  //Must return 1
+            Console.WriteLine(ex2.Solution(arrayExample1)); //Must return -1
 
             int[] array1 = { 1 };
             Console.WriteLine(ex2.Solution(array1));  // Must return 0
@@ -123,10 +131,10 @@ namespace Sistest
             Console.WriteLine(ex2.Solution(array30));  // Must return -1
 
 
-            //Ejercicio 3
+            //Exercise 3
             Exercise3 ex3 = new Exercise3();
             Console.WriteLine("Exercise 3:");
-            ex3.ExecuteSQL();
+            ex3.ExecuteSQL(); //Must return 
         }
     }
 }
