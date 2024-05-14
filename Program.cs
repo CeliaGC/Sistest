@@ -19,25 +19,24 @@ namespace Sistest
             //Ejercicio 2
             Exercise2 ex2 = new Exercise2();
             Console.WriteLine("Exercise 2:");
-            //int[] array = { 0, 1, 1, 1, 0, 1, 1, 1, 0, 1 };
-            //int[] array2 = { 0, 0 };
-            //int[] array3 = { 1, 1, 0, 1, 1, 1 };
-            //int[] array4 = { 1, 1, 1, 1, 1 }; 
-            //Console.WriteLine(ex2.Solution(array));
-            //Console.WriteLine(ex2.Solution(array2));
-            //Console.WriteLine(ex2.Solution(array3));
-            //Console.WriteLine(ex2.Solution(array4));
-
-            int[] array1 = { 1, 1, 0, 1, 1, 1 }; // Esperado: 3
-            Console.WriteLine(ex2.Solution(array1)); // Debe devolver 3
-            int[] array2 = { 1, 1, 1, 1, 1 }; // Esperado: 0
-            Console.WriteLine(ex2.Solution(array2)); // Debe devolver 0
-            int[] array3 = { 0, 0, 1, 1, 1 }; // Esperado: 2
-            Console.WriteLine(ex2.Solution(array3)); // Debe devolver 2
-            int[] array4 = { 0, 0, 0, 0 }; // Esperado: -1
-            Console.WriteLine(ex2.Solution(array4)); // Debe devolver -1
-            int[] array5 = { 0, 1, 1, 0, 1, 0 }; // Esperado: 1
-            Console.WriteLine(ex2.Solution(array5)); // Debe devolver 1
+            int[] array = { 0, 1, 1, 1, 0, 1, 1, 1, 0, 1 };
+            int[] array2 = { 0, 0 };
+            int[] array3 = { 1, 1, 0, 1, 1, 1 };
+            int[] array4 = { 1, 1, 1, 1, 1 };
+            int[] array5 = { 1, 1, 1, 0, 1, 1, 1 };
+            int[] array6 = { 1, 1, 1, 1, 1 };
+            int[] array7 = { 0, 0, 1, 1, 1 };
+            int[] array8 = { 0, 0, 0, 0 };
+            int[] array9 = { 0, 1, 1, 0, 1, 0 };
+            Console.WriteLine(ex2.Solution(array));  // Debe devolver 1
+            Console.WriteLine(ex2.Solution(array2)); // Debe devolver -1
+            Console.WriteLine(ex2.Solution(array3)); // Debe devolver 3
+            Console.WriteLine(ex2.Solution(array4)); // Debe devolver 0
+            Console.WriteLine(ex2.Solution(array5)); // Debe devolver 0
+            Console.WriteLine(ex2.Solution(array6)); // Debe devolver 0
+            Console.WriteLine(ex2.Solution(array7)); // Debe devolver 2
+            Console.WriteLine(ex2.Solution(array8)); // Debe devolver -1
+            Console.WriteLine(ex2.Solution(array9)); // Debe devolver 1
 
 
 

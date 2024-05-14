@@ -15,13 +15,13 @@ namespace Sistest.Exercises
             int result = -1;
             int k = 0, maximal = 0;
 
-            while (i > 0)
+            while (i >= 0)
             {
                 if (A[i] == 1)
                 {
                     k = k + 1;
-                    if (k >= maximal)
-                    {
+                    if (k > maximal)
+                        {
                         maximal = k;
                         result = i ; 
                     }
@@ -33,7 +33,7 @@ namespace Sistest.Exercises
                 i = i - 1;
             }
 
-            if (A[i] == 1 && k + 1 > maximal)
+            if (A[0] == 1 && k + 1 > maximal)
             
                 result = 0;
             
