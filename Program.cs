@@ -12,14 +12,6 @@ namespace Sistest
             Exercise1 ex1 = new Exercise1();
             Console.WriteLine("Exercise 1:");
             Console.WriteLine(ex1.Solution(268)); //must return 5268
-            
-
-
-
-
-
-
-
             Console.WriteLine(ex1.Solution(670));  // Must return 6750
             Console.WriteLine(ex1.Solution(0));  // Must return 50
             Console.WriteLine(ex1.Solution(-999));  // Must return - 5999
