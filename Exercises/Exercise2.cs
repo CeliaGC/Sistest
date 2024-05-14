@@ -15,7 +15,7 @@ namespace Sistest.Exercises
             int result = -1;
             int k = 0, maximal = 0;
 
-            while (i >= 0) // Modificación 1
+            while (i >= 0)
             {
                 if (A[i] == 1)
                 {
@@ -33,74 +33,13 @@ namespace Sistest.Exercises
                 i = i - 1;
             }
 
-            if (k > maximal) // Modificación 2
+            if (k > maximal)
             
                 result = 0;
             
 
             return result;
         }
-
-        //public int Solution(int[] A)
-        //{
-        //    int n = A.Length;
-        //    int i = n - 1;
-        //    int result = -1;
-        //    int k = 0, maximal = 0;
-
-        //    while (i >= 0) // Modificación 1
-        //    {
-        //        if (A[i] == 1)
-        //        {
-        //            k = k + 1;
-        //            if (k >= maximal)
-        //            {
-        //                maximal = k;
-        //                result = i;
-        //            }
-        //        }
-        //        else
-        //        {
-        //            k = 0;
-        //        }
-        //        i = i - 1;
-        //    }
-
-        //    return result;
-        //}
-
-        //public int Solution(int[] A)
-        //{
-        //    int n = A.Length;
-        //    int i = n - 1;
-        //    int result = -1;
-        //    int k = 0, maximal = 0;
-
-        //    while (i >= 0)
-        //    {
-        //        if (A[i] == 1)
-        //        {
-        //            k = k + 1;
-        //            if (k > maximal)
-        //            {
-        //                maximal = k;
-        //                result = i;
-        //            }
-        //        }
-        //        else
-        //        {
-        //            k = 0;
-        //        }
-        //        i = i - 1;
-        //    }
-
-        //    if (A[0] == 1 && k + 1 > maximal)
-
-        //        result = 0;
-
-
-        //    return result;
-        //}
 
 
     }

@@ -113,17 +113,10 @@ namespace Sistest
             Console.WriteLine(ex2.Solution(array30));  // Must return -1
 
 
-
-
-
-
-
-
-
-            // Ejercicio 3
-            //Exercise3 ex3 = new Exercise3();
-            //Console.WriteLine("\nExercise 3:");
-            //ex3.ExecuteSQL();
+            //Ejercicio 3
+            Exercise3 ex3 = new Exercise3();
+            Console.WriteLine("Exercise 3:");
+            ex3.ExecuteSQL();
         }
     }
 }
