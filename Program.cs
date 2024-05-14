@@ -22,6 +22,9 @@ namespace Sistest
             int[] arrayExample = { 0, 1, 1, 1, 0, 1, 1, 1, 0, 1 };
             int[] arrayExample1 = { 0, 0 };
 
+            Console.WriteLine(ex2.Solution(arrayExample));
+            Console.WriteLine(ex2.Solution(arrayExample1));
+
             int[] array1 = { 1 };
             Console.WriteLine(ex2.Solution(array1));  // Must return 0
 
