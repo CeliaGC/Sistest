@@ -19,24 +19,102 @@ namespace Sistest
             //Ejercicio 2
             Exercise2 ex2 = new Exercise2();
             Console.WriteLine("Exercise 2:");
-            int[] array = { 0, 1, 1, 1, 0, 1, 1, 1, 0, 1 };
-            int[] array2 = { 0, 0 };
-            int[] array3 = { 1, 1, 0, 1, 1, 1 };
-            int[] array4 = { 1, 1, 1, 1, 1 };
-            int[] array5 = { 1, 1, 1, 0, 1, 1, 1 };
-            int[] array6 = { 1, 1, 1, 1, 1 };
-            int[] array7 = { 0, 0, 1, 1, 1 };
-            int[] array8 = { 0, 0, 0, 0 };
+            int[] arrayExample = { 0, 1, 1, 1, 0, 1, 1, 1, 0, 1 };
+            int[] arrayExample1 = { 0, 0 };
+
+            int[] array1 = { 1 };
+            Console.WriteLine(ex2.Solution(array1));  // Must return 0
+
+            int[] array2 = { 0 };
+            Console.WriteLine(ex2.Solution(array2));  // Must return -1
+
+            int[] array3 = { 0, 0 };
+            Console.WriteLine(ex2.Solution(array3));  // Must return -1
+
+            int[] array4 = { 1, 0 };
+            Console.WriteLine(ex2.Solution(array4));  // Must return 0
+
+            int[] array5 = { 0, 1 };
+            Console.WriteLine(ex2.Solution(array5));  // Must return 1
+
+            int[] array6 = { 1, 1 };
+            Console.WriteLine(ex2.Solution(array6));  // Must return 0
+
+            int[] array7 = { 1, 0, 1 };
+            Console.WriteLine(ex2.Solution(array7));  // Must return 0
+
+            int[] array8 = { 0, 1, 1 };
+            Console.WriteLine(ex2.Solution(array8));  // Must return 1
+
             int[] array9 = { 0, 1, 1, 0, 1, 0 };
-            Console.WriteLine(ex2.Solution(array));  // Debe devolver 1
-            Console.WriteLine(ex2.Solution(array2)); // Debe devolver -1
-            Console.WriteLine(ex2.Solution(array3)); // Debe devolver 3
-            Console.WriteLine(ex2.Solution(array4)); // Debe devolver 0
-            Console.WriteLine(ex2.Solution(array5)); // Debe devolver 0
-            Console.WriteLine(ex2.Solution(array6)); // Debe devolver 0
-            Console.WriteLine(ex2.Solution(array7)); // Debe devolver 2
-            Console.WriteLine(ex2.Solution(array8)); // Debe devolver -1
-            Console.WriteLine(ex2.Solution(array9)); // Debe devolver 1
+            Console.WriteLine(ex2.Solution(array9));  // Must return 1
+
+            int[] array10 = { 1, 1, 0, 1 };
+            Console.WriteLine(ex2.Solution(array10));  // Must return 0
+
+            int[] array11 = { 1, 0, 1, 1 };
+            Console.WriteLine(ex2.Solution(array11));  // Must return 2
+
+            int[] array12 = { 0, 1, 1, 1 };
+            Console.WriteLine(ex2.Solution(array12));  // Must return 1
+
+            int[] array13 = { 1, 0, 1, 1, 0 };
+            Console.WriteLine(ex2.Solution(array13));  // Must return 2
+
+            int[] array14 = { 0, 1, 1, 1, 0 };
+            Console.WriteLine(ex2.Solution(array14));  // Must return 1
+
+            int[] array15 = { 1, 1, 0, 1, 1 };
+            Console.WriteLine(ex2.Solution(array15));  // Must return 0
+
+            int[] array16 = { 1, 1, 0, 0, 1, 1 };
+            Console.WriteLine(ex2.Solution(array16));  // Must return 0
+
+            int[] array17 = { 0, 0, 1, 1, 1, 0, 0 };
+            Console.WriteLine(ex2.Solution(array17));  // Must return 2
+
+            int[] array18 = { 0, 1, 1, 1, 0, 1, 1 };
+            Console.WriteLine(ex2.Solution(array18));  // Must return 1
+
+            int[] array19 = { 0, 1, 1, 1, 0, 1, 1, 1 };
+            Console.WriteLine(ex2.Solution(array19));  // Must return 1
+
+            int[] array20 = { 1, 1, 0, 1, 1, 0 };
+            Console.WriteLine(ex2.Solution(array20));  // Must return 0
+
+            int[] array21 = { 1, 1, 0, 1, 1, 0, 1 };
+            Console.WriteLine(ex2.Solution(array21));  // Must return 0
+
+            int[] array22 = { 1, 0, 1, 0, 1, 1, 1 };
+            Console.WriteLine(ex2.Solution(array22));  // Must return 4
+
+            int[] array23 = { 1, 0, 1, 1, 1, 1, 0 };
+            Console.WriteLine(ex2.Solution(array23));  // Must return 2
+
+            int[] array24 = { 1, 1, 1, 0, 1, 1, 1 };
+            Console.WriteLine(ex2.Solution(array24));  // Must return 0
+
+            int[] array25 = { 1, 1, 0, 1, 0, 1, 1, 0 };
+            Console.WriteLine(ex2.Solution(array25));  // Must return 0
+
+            int[] array26 = { 1, 0, 1, 0, 1, 0, 1 };
+            Console.WriteLine(ex2.Solution(array26));  // Must return 0
+
+            int[] array27 = { 1, 0, 0, 1, 1, 0, 1 };
+            Console.WriteLine(ex2.Solution(array27));  // Must return 3
+
+            int[] array28 = { 1, 1, 1, 0, 0, 0, 0 };
+            Console.WriteLine(ex2.Solution(array28));  // Must return 0
+
+            int[] array29 = { 1, 0, 1, 1, 1, 1, 0 };
+            Console.WriteLine(ex2.Solution(array29));  // Must return 2
+
+            int[] array30 = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            Console.WriteLine(ex2.Solution(array30));  // Must return -1
+
+
+
+
 
 
 
